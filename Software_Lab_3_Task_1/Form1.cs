@@ -9,7 +9,7 @@ namespace Software_Lab_3_Task_1
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
-            Text = string.Format($"Координаты: {e.X}, {e.Y}");
+            Text = string.Format($"РљРѕРѕСЂРґРёРЅР°С‚С‹: {e.X}, {e.Y}");
             textBox1.Text = (e.X + e.Y).ToString();
         }
     }
